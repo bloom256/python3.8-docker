@@ -12,6 +12,7 @@ RUN apt-get update \
     libgl1 \
     libglvnd0 \
     libglx0 \
+    libopenmpi3 \
     libx11-6 \
     libxext6 \
     mc \
