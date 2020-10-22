@@ -4,7 +4,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 # Dependencies for glvnd and X11.
 RUN apt-get update \
-  && apt-get install -y -qq --no-install-recommends \
+  && apt-get install -y -qq \
     git-gui \
     gitk \
     htop \
